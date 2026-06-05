@@ -32,7 +32,14 @@ npm install
 ```
 
 ### 3. 配置环境变量
-在项目根目录创建 `.env.local` 文件，并填入你的 MiniMax API Key：
+复制 `.env.example` 文件并重命名为 `.env.local`，然后填入你的 MiniMax API Key：
+
+```bash
+cp .env.example .env.local
+```
+
+编辑 `.env.local` 文件：
+
 ```env
 # 获取地址: https://platform.minimaxi.com/
 MINIMAX_API_KEY=your_minimax_api_key_here
